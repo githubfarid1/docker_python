@@ -1,0 +1,1 @@
+docker run --rm -it --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" -v ~/dev/python/docker_python:/usr/project python-ubuntu:1 /bin/bash
